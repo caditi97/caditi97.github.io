@@ -1,0 +1,33 @@
+
+/**
+Set styles for project implementation pages.
+**/
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content{
+  overflow: auto;
+}
+
+.canvas-content {
+  justify-content: space-around;
+}
+
+
+#canvas {
+    border: 1px solid #CBC3E3;
+}

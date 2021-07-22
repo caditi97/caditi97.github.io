@@ -1,0 +1,63 @@
+<!--
+Landing page for the project. This page includes descriptions of the problem statements
+and links to their implementations.
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="index_style.css">
+      <title>Neocis Software Assessment</title>
+   </head>
+   <body>
+     <header>
+         <h1 id="heading">Neocis Software Assessment</h1>
+     </header>
+     <main>
+      <div class="fieldset">
+        <h1><span>Part 1 : Digitizing Circles</span></h1>
+      <div class="content">
+        <p>The objective here was to design a program capable of digitizing circles.
+          The conditions for the program were as described below.
+          <ul>
+          <li>The system should start with a single window containing a 20x20 grid of square points.</li>
+          <li>All square points start with a color of grey which turs blue when a circle is made connecting
+          the points.</li>
+          <li>Center of the circle is the point user clicks and the edge corresponds to the point where the
+          user releases the mouse.</li>
+          <li>Two additional circles are created in red color corresponding to the largest and smallest radius
+          of the highlighted points.</li>
+          </ul>
+        </p>
+      </div>
+      </div>
+      <div id="options">
+        <a href="part_1.html">
+          <button>Proceed to the implementation for PART 1</button>
+        </a>
+      </div>
+
+      <div class="fieldset">
+        <h1><span>Part 2 : Toggling the Grid</span></h1>
+      <div class="content">
+        <p>The objective here was to design a program similar to the previous part but instead here the user
+          has the ability to toggle square points on and off. <br> Using the points toggled on by the user
+          the program then creates a circle joining those points accordingly with the help of an iterative least-
+          squares based algorithm.
+          <ul>
+          <li>Similar starting conditions to the previous part.</li>
+          <li>A "Generate" button which creates circle using highlighted points.</li>
+          <li>The algorithm used to create the circle should not rely on an external library or code to find best fit.</li>
+          </ul>
+        </p>
+      </div>
+      </div>
+      <div id="options">
+        <a href="part_2.html">
+          <button>Proceed to the implementation for PART 2</button>
+        </a>
+      </div>
+     </main>
+    </body>
+   </html>

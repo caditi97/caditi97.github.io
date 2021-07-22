@@ -1,0 +1,33 @@
+<!--
+This page contains the implementationfor the first part of the assessment.
+The user will see a 20 by 20 grid of squares on which squares can be toggled
+on and then the generate button pressed to create a circle around those points.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="part_style.css">
+      <script src="part_2.js"></script>
+      <title>Neocis Software Assessment</title>
+   </head>
+   <body>
+     <header>
+         <h1 id="heading">Neocis Software Assessment</h1>
+     </header>
+     <main>
+       <div class="canvas-content">
+         <div>
+           <p>In order to create a circle click a few boxes in the grid <br>
+              with your mouse and then press the generate button. The page can be refreshed
+              to undo changes made to the grid.
+            </p>
+            <button id="generate">Generate</button>
+         </div>
+         <div>
+           <canvas id="canvas" width="420" height="420"></canvas>
+         </div>
+       </div>
+     </main>
+   </body>
+</html>
